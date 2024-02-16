@@ -7,8 +7,8 @@ sys.path.append("Localrepo\pack1")
 # module1.display()
 # module2.show()
 
-from module1 import *
-from module2 import *
+# from module1 import *
+# from module2 import *
 
-display()
-show()
+# display()
+# show()
