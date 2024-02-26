@@ -20,8 +20,14 @@
 
 #######################################################
 #Appending data in to file
-file = open("C:/Users/Asus/OneDrive/Desktop/DA_Docs/Testing_Doc.txt", "a")
-file.write("\nThis is a Eigth Line....\n")
-file.write("This is a ninth Line....")
-file.close()
-print("Executed Successfully")
+# file = open("C:/Users/Asus/OneDrive/Desktop/DA_Docs/Testing_Doc.txt", "a")
+# file.write("\nThis is a Eigth Line....\n")
+# file.write("This is a ninth Line....")
+# file.close()
+# print("Executed Successfully")
+
+str = "Today is 31 of 2021"
+
+for s in str:
+    if s.isdigit():
+        print(s, end=' ')
